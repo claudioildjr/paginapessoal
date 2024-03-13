@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Página Pessoal</title>
+    <link rel="icon" href=".\images\favicon.jpg" />
+    <link rel="stylesheet" href=".\styles.css">
+</head>
+
+<body>
+    <header class="header-contato">
+        <a href="/index.html"><button>Pagina Pessoal</button></a>
+        <h1 class="title">Contato</h1>
+    </header>
+    <section id="contato" class="data-box">
+        <form>
+            <label for="nome">Nome Completo: </label>
+            <input type="text" name="nome" required>
+            <label for="fone">Telefone: </label>
+            <input type="text" name="fone" required>
+            <label for="email">Email: </label>
+            <input type="email" name="email" required>
+            <label for="motivo-contato">Escolha o motivo do contato:</label>
+            <select name="motivo-contato" id="motivo-contato">
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="outro">Outro</option>
+            </select>
+            <label for="coment">Comentários Gerais: </label>
+            <input type="text" name="coment" required>
+        </form>
+    </section>
+    <hr>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a78351;
+    color: #e9cc97;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-contato{
+    background-color: #a78351;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.header-contato h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a78351;
+    color: #e9cc97;
+    width: 80%;
+}
+
+header button{
+    border-style: none;
+    width: 100px;
+    height: 100px;
+    background-color: #a78351;
+    color: #e9cc97;
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a78351;
+    height: 50px;
+}
+
+.menu a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9cc97;
+    text-decoration: none;
+    width: 25%;
+    height: 50px;
+}
+
+.menu a:hover{
+    color: #a78351;
+    font-size: 150%;
+    background-color: #e9cc97;
+}
+
+.data-box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #e9cc97;
+    font-size: 20px; 
+}
+
+.data-box button{
+    font-weight: 1000;
+    color:#d3b480;
+    background-color: #94764a;
+    border-color: #dac3a4;
+    width: 200px;
+    height: 40px;
+    box-shadow: #a78351;
+}
+
+.data-box button:hover{
+    background-color: #d3b480;
+    color: #94764a;
+
+}
+
+.data-box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 755px;
+    padding: 5px;
+}
+
+.data-box-text a{
+    text-decoration: none;
+    color: #a78351;
+}
+
+.data-box-text a:hover{
+    color: #d3b480
+}
+
+.data-box h2{
+    color: #a78351;
+}
+
+.data-box-text ul{
+    list-style: none;
+}
+
+.personal-img{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.personal-img img{
+    margin: 10px;
+    border-radius: 5%;
+}
+
+hr{
+    color: #a78351 ;
+    background-color: #a78351;
+    height: 5px;
+    border: none;
+}
